@@ -223,7 +223,7 @@ body{
 #header-container{
 	background-color:#FFFFFF;
 	height:150px;
-	border-bottom:20px solid #234F32;
+	border-bottom:20px solid #326342;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 40px 40px -40px #AAA;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
@@ -254,7 +254,7 @@ nav a{
 	padding:20px;
 	color:white;
 	text-decoration:none;
-	background-color:#234F32;
+	background-color:#326342;
 }
 
 aside{
