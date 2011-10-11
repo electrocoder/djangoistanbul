@@ -50,7 +50,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    ========================================================================== */
 
 a { color: #00e; }
-a:visited { color: #551a8b; }
+a:visited { color: #FFFFFF; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
@@ -221,9 +221,9 @@ body{
 }
 
 #header-container{
-	background-color:#01C0B9;
+	background-color:#FFFFFF;
 	height:150px;
-	border-bottom:20px solid #0DACA5;
+	border-bottom:20px solid #234F32;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 40px 40px -40px #AAA;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
@@ -237,7 +237,7 @@ h3{font-size: 30px;}
 
 #title{
 	font-size: 60px;
-	color:white;
+	color:black;
 	float:left;
 }
 
@@ -254,7 +254,7 @@ nav a{
 	padding:20px;
 	color:white;
 	text-decoration:none;
-	background-color:#0DACA5;
+	background-color:#234F32;
 }
 
 aside{
@@ -286,9 +286,9 @@ article header{
 }
 
 #footer-container{
-	background-color:#01C0B9;
-	height:240px;
-	border-top:20px solid #0DACA5;
+	background-color:#326342;
+	height:100px;
+	border-top:20px solid #234F32;
 	margin-top:50px;
 	-webkit-box-shadow:0 -40px 40px -40px #AAA;
 	   -moz-box-shadow:0 -40px 40px -40px #AAA;
