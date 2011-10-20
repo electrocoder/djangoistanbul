@@ -1,1 +1,10 @@
-# Create your views here.
+from events.models import *
+
+from django.shortcuts import render_to_response
+
+def index(request):
+    return render_to_response('events/index.html', {
+        'events': Events.objects.all(),
+    })
+
+
