@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Events{% endblock %}
+
+{% block content %}
+
+{% if events %}
+<ul>
+    {% for event in events %}
+    <li>{{ event.title }}</li><br />
+    <p>{{ event.description }}</p><br />
+    <p>Nerede?  <br />
+    {{  event.location }}</p>
+    <p>Ne Zaman? <br />
+    {{ event.start_date }}</p>
+    {% endfor %}
+</ul>
+{% else %}
+    <p>Noooooo!</p>
+{% endif %}
+
+{% endblock %}
+
+

@@ -6,8 +6,11 @@ class Events(models.Model):
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
     location = models.CharField(max_length=255)
-    
+
     def __unicode__(self):
         return self.title
-        
-    
+
+    class Meta:
+        verbose_name_plural = "Events"
+
+

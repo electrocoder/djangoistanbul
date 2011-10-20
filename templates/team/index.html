@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}The Team{% endblock %}{% block content %}{% if team %}<ul>    {% for teams in team %}    <li><strong>{{ teams.username }}</strong></li><br />    <p>{{ teams.bio }}</p>    {% endfor %}</ul>{% else %}    <p>Team no</p>{% endif %}{% endblock %}
