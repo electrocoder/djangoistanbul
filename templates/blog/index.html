@@ -7,6 +7,9 @@
     <ul>
     {% for post in posts %}
         <li><a href="{{post.get_absolute_url}}">{{post.title}}</a></li><br />
+		<small>Created by {{ post.author }}</small><br />
+		<small>{{ post.posted }}</small>
+		<p>{{ post.body }}</p>
     {% endfor %}
     </ul>
 {% else %}
